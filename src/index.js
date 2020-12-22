@@ -1,13 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import potato from './potato'
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+import "./index.css";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-    <potato />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
+ReactDOM.render(<App />, document.getElementById("root"));
